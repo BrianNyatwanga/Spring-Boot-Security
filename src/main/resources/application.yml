@@ -22,4 +22,4 @@ application:
       refresh-token:
         expiration: 604800000 # 7 days
 server:
-  address: 192.168.91.133
+  address:
