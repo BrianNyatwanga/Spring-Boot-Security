@@ -21,12 +21,14 @@ public class BookController {
     public ResponseEntity<?> save(
             @RequestBody BookRequest request
     ) {
+        //call service inorder to save
         service.save(request);
         return ResponseEntity.accepted().build();
     }
 
     @GetMapping
     public ResponseEntity<List<Book>> findAllBooks() {
+
         return ResponseEntity.ok(service.findAll());
     }
 }

@@ -12,6 +12,7 @@ import static com.brian.security.user.Role.ADMIN;
 import static com.brian.security.user.Role.MANAGER;
 
 @SpringBootApplication
+//ENABLE AUDITING
 @EnableJpaAuditing(auditorAwareRef = "auditorAware")
 public class SecurityApplication {
 

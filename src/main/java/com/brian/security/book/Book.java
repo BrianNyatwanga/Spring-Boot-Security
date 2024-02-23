@@ -22,6 +22,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
+//AUDITING
 @EntityListeners(AuditingEntityListener.class)
 public class Book {
 
